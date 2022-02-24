@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Đăng Ký</title>
+	<link rel="stylesheet" type="text/css" href="bai1.css">
+	
+</head>
+<body>
+	<form action="xulydangky.html" method="post">
+		<table width="400" border="2" cellpadding="5" align="center">
+			<tr>
+				<th colspan="2">ĐĂNG KÝ</th>
+			</tr>
+			<tr>
+				<td>Full name</td>
+				<td><input type="text" name="frame" size="30" placeholder="Nhập tài khoản"></td>
+			</tr>
+			<tr>
+				<td>Mật khẩu</td>
+				<td><input type="password" name="pass" size="30" placeholder="Nhập mật khẩu"></td>
+			</tr>
+			<tr>
+				<td>Nhập lại mật khẩu</td>
+				<td><input type="password" name="pass" size="30" placeholder="Nhập lại khẩu"></td>
+			</tr>
+			<tr>
+				<td>Giới Tính</td>
+				<td>
+					<label>
+						<input type="radio" name="gender">Nam
+					</label>
+					<label>
+						<input type="radio" name="gender">Nữ
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Ngày Sinh</td>
+				<td>
+					<select name="day">
+						<option value="ngay1">Ngày 1</option>
+						<option value="ngay2">Ngày 2</option>
+						<option value="ngay3">Ngày 3</option>
+					</select>
+					<select name="month">
+						<option value="thang1">Tháng 1</option>
+						<option value="thang2">Tháng 2</option>
+						<option value="thang3">Tháng 3</option>
+					</select>
+					<select name="year">
+						<option value="nam2020">Năm 2020</option>
+						<option value="nam2021">Năm 2021</option>
+						<option value="nam2022">Năm2022</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Địa chỉ</td>
+				<td>
+					<textarea cols="20"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Avatar</td>
+				<td><input type="file" name="avatar"></td>
+			</tr>
+			<tr>
+				<td>Sở Thích</td>
+				<td>
+					<label><input type="checkbox" name="xemphim">Xem Phim</label>
+					<label><input type="checkbox" name="dabong">Đá Bóng</label>
+					<label><input type="checkbox" name="dulich">Du Lịch</label>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="reset" name="reset" value="reset"> &nbsp;&nbsp;
+					<input type="submit" name="ok" value="ok">
+				<ul align="center">
+					<li><a href="index.html">Trang chủ</a></li>
+				</ul>
+            </td>
+			</tr>
+		</table>	
+	</form>
+</body>
+</html>

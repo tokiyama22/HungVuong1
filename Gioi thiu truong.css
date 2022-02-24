@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: TimeNewRoman, Helvetica, sans-serif;
+}
+.container{
+    padding: 0 118px;
+}
+footer{
+    height: 260px;
+    width: 100%;
+    background: #eee;
+}
+.padding{
+    padding: 18px 0;
+}
+footer .infor h3, footer > .infor> p > a{
+    color: #D7004D;
+}
+footer h3{
+    padding: 14px 0;
+}
+footer .infor p{
+    margin-bottom: 8px;
+}
+.footer-solid{
+    border-bottom: 1px solid #007efe;
+    padding: 20px 0;
+    padding-top: 130px;
+}
+.copy{
+    padding: 20px 0;
+}
+.copy span{
+    float: right;
+}
+footer .ketnoi-icon , .infor{
+    float: left;
+    width: 50%;
+}
+.padding{
+    padding: 18px 0;
+}
+.ketnoi-icon p{
+    padding: 14px 0;
+    font-size: 20px;
+}
+.ketnoi-icon .icon-lienket{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.ketnoi-icon .icon-lienket:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+}
+.clear{
+    clear: both;
+}
+.df-ct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 0 118px;
+
+}
+.mr-125{
+    margin-right: 125px;
+}
+.bb-solid{
+    border-bottom: 1px solid #eee;
+}
+.td-none{
+    text-decoration: none;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+header{
+    max-height: 130px;
+    width: 100%;
+}
+nav{
+    background: orangered;
+    min-height: 38px;
+    width: 100%;
+    margin-bottom: 24px;
+
+}
+.header{
+    padding: 0 16px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav>ul>li>a{
+    color: #fff;
+}
+nav ul li:hover{
+    cursor: pointer;
+    background: #055699;
+}
+nav li a{
+    text-decoration: none;
+    line-height: 38px;
+}
+nav li a .icon{
+    font-size: 12px;
+}
+
+nav li{
+    position: relative;
+}
+nav .sub {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+nav .sub a{
+    color: #000;
+    background: #fff;
+    display: block;
+    padding: 0 12px;
+    min-width: 210px;
+    line-height: 38px;
+}
+nav .sub a:hover{
+    color: #1f7acf;
+    background-color: #e0e1e9;
+}
+nav li:hover .sub{
+    display: block;
+}
